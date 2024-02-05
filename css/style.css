@@ -527,7 +527,7 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form{
     gap: 24px;
-    display:inline-flex ;
+    display:flex ;
     
     }
 .subscribe{
@@ -547,9 +547,9 @@ margin-bottom: 16px;
     gap: 16px;   
     border-radius: 4px;
     background:  #4D5AE5;
-    color: var(--WHITE, #FFF);
+    color:  #FFF ;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif ;
     font-size: 16px;
      font-weight: 500;
     line-height: 24px; 
@@ -557,11 +557,15 @@ margin-bottom: 16px;
     border: none;
     cursor: pointer;
     height: 40px;
+    min-width: 165px;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form_button:focus,
 .form_button:hover{
     background-color:#404BBF;
+}
+.icon-form{
+    margin-left: 16px; 
 }
 .container-form{
     margin-left: 80px;
@@ -569,10 +573,14 @@ margin-bottom: 16px;
 .e-maill-form{
     width: 264px;
     height: 40px;
-    background-color:  #2E2F42;
+    background-color: transparent;
     border-radius: 4px;
-    border: 1px solid  #FFF;
+    border: 1px solid  #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 2; 
+    letter-spacing: 0.04em;
+    color:  #ffffff; ;
 
 }
 .e-maill-form::placeholder{
