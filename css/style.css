@@ -54,10 +54,7 @@ img {
     line-height: 1.5 ;
     letter-spacing: 0.02em;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    
-    
-}
+    }
 
 
  .contacts-link:hover,
@@ -81,12 +78,8 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-     
-    
- 
-
-}
+    margin: 0 auto;
+    }
     
     .link{
         color:#2e2f42;
@@ -507,8 +500,8 @@ color:#4D5AE5;
     margin-bottom: 0;
     padding-right: 0;
     
+    }
 
-}
 .social_media_item{
     width: 40px;
     height: 40px;
@@ -531,4 +524,64 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social_media_link:hover,
 .social_media_link:focus{
     background-color: #31D0AA;
+}
+.footer-form{
+    gap: 24px;
+    display:inline-flex ;
+    
+    }
+.subscribe{
+color:  #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+margin-bottom: 16px;
+}
+.form_button{
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;   
+    border-radius: 4px;
+    background:  #4D5AE5;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+     font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form_button:focus,
+.form_button:hover{
+    background-color:#404BBF;
+}
+.container-form{
+    margin-left: 80px;
+}
+.e-maill-form{
+    width: 264px;
+    height: 40px;
+    background-color:  #2E2F42;
+    border-radius: 4px;
+    border: 1px solid  #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+.e-maill-form::placeholder{
+    align-items: center;
+    padding-left: 16px;
+    color:  #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.48px;
 }
