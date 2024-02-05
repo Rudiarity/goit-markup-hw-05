@@ -527,7 +527,7 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form{
     gap: 24px;
-    display:flex ;
+    display:inline-flex ;
     
     }
 .subscribe{
@@ -547,9 +547,9 @@ margin-bottom: 16px;
     gap: 16px;   
     border-radius: 4px;
     background:  #4D5AE5;
-    color:  #FFF ;
+    color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: "Roboto", sans-serif ;
+    font-family: Roboto;
     font-size: 16px;
      font-weight: 500;
     line-height: 24px; 
@@ -573,15 +573,16 @@ margin-bottom: 16px;
 .e-maill-form{
     width: 264px;
     height: 40px;
-    background-color: transparent;
+    background-color:  #2E2F42;
     border-radius: 4px;
-    border: 1px solid  #ffffff;
+    border: 1px solid  #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 2; 
     letter-spacing: 0.04em;
-    color:  #ffffff; ;
+    color:  #ffffff; 
     padding-left: 16px;
+
 }
 .e-maill-form::placeholder{
     align-items: center;
