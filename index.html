@@ -454,10 +454,17 @@
      </textarea>
       </div>
       <div class="container-chekbox">
-        <label class="checkbox_labal">
-            <input class="checkbox_button" type="checkbox" name="privacy-polocy" required >
-        </label>
-        <p class="privacy_policy_paragraf">I accept the terms and conditions of the <span class="privacy_policy">Privacy Policy</span></p>
+        <input class="checkbox_button visually-hidden" type="checkbox" name="privacy-polocy" id="user-privacy" value="true"  >
+        <label for="user-privacy" class="user-privacy">
+            <span class="privacy_button">
+                <svg class="icon_checbox" width="10"  height="8" >
+                    <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+            </span>
+                I accept the terms and conditions of the
+                <a class="privacy_policy_paragraf">Privacy Policy</a>
+            </label>
+    
        
 
       </div>

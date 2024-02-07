@@ -734,8 +734,9 @@ margin-bottom: 16px;
     .container-chekbox{
         display: flex;
         flex-direction: row;
+        margin-bottom: 24px;
     }
-    .privacy_policy_paragraf{
+    .user-privacy{
         color:  #8E8F99;
         font-family: Roboto,sans-serif;
         font-size: 12px;
@@ -743,7 +744,7 @@ margin-bottom: 16px;
         line-height: 14px; 
         letter-spacing: 0.48px;
     }
-    .privacy_policy{
+    .privacy_policy_paragraf{
         color:  #4D5AE5;
         font-family: Roboto,sans-serif;
         font-size: 12px;
@@ -752,10 +753,26 @@ margin-bottom: 16px;
         letter-spacing: 0.48px;
         text-decoration-line: underline;
     }
-    .checkbox_button{
-       width: 24px;
-        height: 24px;
-    }
+    .privacy_button{
+       width: 16px;
+        height: 16px;
+        border: 1px solid rgba(46, 47, 66, 0.4); 
+        border-radius: 2px; 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex; 
+        align-items: center; 
+        justify-content: center; 
+        fill: transparent;
+}
+.checkbox_button:checked+
+.user-privacy .privacy_button{
+
+        background-color: #404BBF;
+        border: none;
+        fill: #F4F4FD;
+    
+}
+
     .model_button{
         display: block;
         align-items: center;
@@ -773,7 +790,7 @@ margin-bottom: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
