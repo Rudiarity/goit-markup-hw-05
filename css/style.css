@@ -643,7 +643,7 @@ margin-bottom: 16px;
 }
 .icon_close:hover,
 .icon_close:focus{
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .header_model{
@@ -774,7 +774,7 @@ margin-bottom: 16px;
 }
 
     .model_button{
-        display:flex;
+        display:block;
         align-items: center;
         justify-content: center;
         gap: 10px;
