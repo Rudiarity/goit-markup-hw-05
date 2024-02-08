@@ -637,18 +637,12 @@ margin-bottom: 16px;
 {
     background-color: #404bbf; 
     border: none; 
+    fill:#ffffff;
 }
 .icon_close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.stoke_icon:hover{
-fill:#ffffff;
-}
-
-.stoke_icon:focus{
-    fill:#ffffff;
-}
 
 .header_model{
 color:  #2E2F42;
